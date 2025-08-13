@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desa Klanting - UMKM</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo" onclick="navigateToPage('index.html')">🏘️ Desa Klanting</div>
+            <ul class="nav-links">
+                <li><a href="#" onclick="navigateToPage('index.html')">Beranda</a></li>
+                <li><a href="#" onclick="navigateToPage('about.html')">Tentang</a></li>
+                <li><a href="#" onclick="navigateToPage('umkm.html')" class="nav-active">UMKM</a></li>
+                <li><a href="#" onclick="navigateToPage('kesenian.html')">Kesenian</a></li>
+                <li><a href="#" onclick="navigateToPage('contact.html')">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- UMKM Section -->
+    <section class="page-section">
+        <div class="container">
+            <h1 class="page-title">UMKM Desa Klanting</h1>
+            <p class="page-subtitle">Produk berkualitas tinggi dari tangan-tangan terampil masyarakat desa</p>
+            
+            <div class="umkm-grid">
+                <div class="umkm-card">
+                    <h3>🧺 Kerajinan Anyaman Bambu</h3>
+                    <p>Produk anyaman bambu berkualitas tinggi seperti keranjang, tas, dan peralatan rumah tangga. Dibuat dengan teknik tradisional yang telah diwariskan turun-temurun.</p>
+                    <div class="umkm-price">Mulai dari Rp 25.000</div>
+                    <button class="contact-btn" onclick="navigateToPage('contact.html')">Hubungi Penjual</button>
+                </div>
+                <div class="umkm-card">
+                    <h3>🍯 Madu Hutan Alami</h3>
+                    <p>Madu murni dari hutan sekitar desa yang dipanen secara berkelanjutan. Kaya akan nutrisi dan memiliki kualitas premium dengan rasa yang khas.</p>
+                    <div class="umkm-price">Rp 150.000/kg</div>
+                    <button class="contact-btn" onclick="navigateToPage('contact.html')">Hubungi Penjual</button>
+                </div>
+                <div class="umkm-card">
+                    <h3>🍃 Jamu Tradisional</h3>
+                    <p>Ramuan jamu tradisional dari bahan-bahan herbal pilihan. Diproduksi dengan resep turun-temurun untuk menjaga kesehatan alami.</p>
+                    <div class="umkm-price">Rp 35.000/botol</div>
+                    <button class="contact-btn" onclick="navigateToPage('contact.html')">Hubungi Penjual</button>
+                </div>
+                <div class="umkm-card">
+                    <h3>🥜 Olahan Kacang Tanah</h3>
+                    <p>Berbagai produk olahan kacang tanah seperti selai, kue, dan camilan sehat. Menggunakan kacang lokal berkualitas tinggi.</p>
+                    <div class="umkm-price">Mulai dari Rp 20.000</div>
+                    <button class="contact-btn" onclick="navigateToPage('contact.html')">Hubungi Penjual</button>
+                </div>
+                <div class="umkm-card">
+                    <h3>🧵 Tenun Ikat Tradisional</h3>
+                    <p>Kain tenun ikat dengan motif khas daerah. Setiap lembar dibuat dengan penuh kesabaran dan keahlian tinggi.</p>
+                    <div class="umkm-price">Rp 300.000/lembar</div>
+                    <button class="contact-btn" onclick="navigateToPage('contact.html')">Hubungi Penjual</button>
+                </div>
+                <div class="umkm-card">
+                    <h3>🍘 Keripik Singkong</h3>
+                    <p>Keripik singkong renyah dengan berbagai varian rasa. Camilan sehat yang terbuat dari singkong lokal pilihan.</p>
+                    <div class="umkm-price">Rp 15.000/bungkus</div>
+                    <button class="contact-btn" onclick="navigateToPage('contact.html')">Hubungi Penjual</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <h3>🏘️ Desa Klanting</h3>
+            <p>Melestarikan Budaya, Mengembangkan Ekonomi Kreatif</p>
+            <p style="margin-top: 2rem; opacity: 0.8;">&copy; 2025 Desa Klanting. Semua hak cipta dilindungi.</p>
+        </div>
+    </footer>
+
+    <script src="navigation.js"></script>
+</body>
+</html>

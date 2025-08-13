@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desa Klanting - Kontak</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo" onclick="navigateToPage('index.html')">🏘️ Desa Klanting</div>
+            <ul class="nav-links">
+                <li><a href="#" onclick="navigateToPage('index.html')">Beranda</a></li>
+                <li><a href="#" onclick="navigateToPage('about.html')">Tentang</a></li>
+                <li><a href="#" onclick="navigateToPage('umkm.html')">UMKM</a></li>
+                <li><a href="#" onclick="navigateToPage('kesenian.html')">Kesenian</a></li>
+                <li><a href="#" onclick="navigateToPage('contact.html')" class="nav-active">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contact Section -->
+    <section class="page-section">
+        <div class="container">
+            <h1 class="page-title">Hubungi Kami</h1>
+            <p class="page-subtitle">Kami siap membantu dan menjawab pertanyaan Anda</p>
+            
+            <div class="contact-info">
+                <div class="contact-card">
+                    <div class="contact-icon">📍</div>
+                    <h3>Alamat</h3>
+                    <p>Desa Klanting, Kecamatan Klanting<br>Kabupaten Klanting, Jawa Timur<br>Kode Pos: 12345</p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">📞</div>
+                    <h3>Telepon</h3>
+                    <p>Kepala Desa: (0274) 123-4567<br>Sekretaris: (0274) 123-4568<br>UMKM Center: (0274) 123-4569</p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">✉️</div>
+                    <h3>Email</h3>
+                    <p>info@desaklanting.id<br>umkm@desaklanting.id<br>kesenian@desaklanting.id</p>
+                </div>
+            </div>
+
+            <div class="contact-form-section">
+                <h2 class="section-title">Kirim Pesan</h2>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Nama Lengkap</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subjek</label>
+                        <select id="subject" name="subject" required>
+                            <option value="">Pilih Subjek</option>
+                            <option value="umkm">Pertanyaan UMKM</option>
+                            <option value="kesenian">Informasi Kesenian</option>
+                            <option value="kunjungan">Kunjungan Desa</option>
+                            <option value="lainnya">Lainnya</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Pesan</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Kirim Pesan</button>
+                </form>
+            </div>
+
+            <div class="office-hours">
+                <h2 class="section-title">Jam Operasional</h2>
+                <div class="hours-grid">
+                    <div class="hours-card">
+                        <h4>Kantor Desa</h4>
+                        <p>Senin - Jumat: 08:00 - 16:00<br>Sabtu: 08:00 - 12:00<br>Minggu: Tutup</p>
+                    </div>
+                    <div class="hours-card">
+                        <h4>UMKM Center</h4>
+                        <p>Senin - Sabtu: 09:00 - 17:00<br>Minggu: 10:00 - 15:00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <h3>🏘️ Desa Klanting</h3>
+            <p>Melestarikan Budaya, Mengembangkan Ekonomi Kreatif</p>
+            <p style="margin-top: 2rem; opacity: 0.8;">&copy; 2025 Desa Klanting. Semua hak cipta dilindungi.</p>
+        </div>
+    </footer>
+
+    <script src="navigation.js"></script>
+</body>
+</html>
